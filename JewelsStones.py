@@ -1,6 +1,5 @@
-class Solution:
-    J = "aA"
-    S = "aAAbbbb"
+class Solution1:
+
     def numJewelsInStones(J, S):
         """
         :type J: str
@@ -15,8 +14,6 @@ class Solution:
                 K.append(ele)
                 
         distinct = len(K)
-        print(K)
         return(distinct)
     
-    ret = numJewelsInStones(J, S)
-    print(ret)
+

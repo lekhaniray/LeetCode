@@ -1,5 +1,4 @@
 class Solution:
-    n=-345
     def reverse1(n):
         
         if(n>0):
@@ -27,14 +26,6 @@ class Solution:
         return(copy)
             
             
-    ret = reverse1(n)
-    print(ret)
-                
-                
-                
-        
-        
-   
-
+  
         
             
